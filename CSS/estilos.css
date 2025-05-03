@@ -211,6 +211,13 @@ img{
     background-color: var(--negro);
     padding-bottom: 1.5rem;
     margin-top: 4rem;
+}
 
-
+/** sobre nosotros **/
+@media (min-width:768px)  {
+    .sobre-nosotros{
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
 }
